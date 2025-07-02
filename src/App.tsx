@@ -1,4 +1,5 @@
 import "./App.css";
+import qrCodeImg from "./assets/images/image-qr-code.png";
 
 function App() {
   return (
@@ -6,7 +7,7 @@ function App() {
       <div className="card">
         <img
           className="card-img"
-          src="src/assets/images/image-qr-code.png"
+          src={qrCodeImg}
           alt="QR Code"
         />
         <div className="card-content">
