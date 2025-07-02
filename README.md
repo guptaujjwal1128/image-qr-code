@@ -1,70 +1,69 @@
-# React Practice
+# Frontend Mentor - QR code component solution
 
-A minimal React + TypeScript project bootstrapped with [Vite](https://vitejs.dev/), featuring ESLint, Prettier, and modern best practices.
+This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
----
+## Table of contents
 
-## Features
+- [Overview](#overview)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [Getting Started](#getting-started)
+  - [Start The Development Server](#1-start-the-development-server)
+  - [Preview The Production Build](#2-preview-the-production-build)
+  - [Linting & Formatting](#linting--formatting)
+  - [Project Structure](#project-structure)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [License](#license)
 
-- ⚡️ Fast development with Vite
-- ⚛️ React 19 with functional components
-- 🦾 TypeScript for type safety
-- 🧹 ESLint with Flat Config and recommended plugins
-- 🎨 Prettier for code formatting
-- 🔥 React Fast Refresh for instant feedback
-- 🛠️ Ready for further customization
+## Overview
 
----
+### Screenshot
+
+![](./screenshot.png)
+
+### Links
+
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## Getting Started
 
-### 1. Install dependencies
+### 1. Start The Development Server
 
 ```sh
 npm install
-```
-
-### 2. Start the development server
-
-```sh
 npm run dev
 ```
 
-### 3. Build for production
+### 2. Preview The Production Build
 
 ```sh
 npm run build
-```
-
-### 4. Preview the production build
-
-```sh
 npm run preview
 ```
 
----
+### Linting & Formatting
 
-## Linting & Formatting
-
-- **Lint code:**
-  ```sh
-  npm run lint
-  ```
-- **Format code:**
   ```sh
   npm run fmt
+  npm run lint
   ```
 
----
-
-## Project Structure
+### Project Structure
 
 ```
 src/
   App.tsx         # Main React component
   main.tsx        # Entry point
   index.css       # Global styles
-public/
+public/           # public assets like favicon icon
+src/              # sources
+src/assets/       # assets that need optimisations by vite
   index.html      # HTML template
 vite.config.ts    # Vite configuration
 eslint.config.js  # ESLint Flat Config
@@ -72,24 +71,43 @@ tsconfig*.json    # TypeScript configs
 .prettierrc       # Prettier config
 ```
 
----
+## My process
 
-## ESLint & Prettier
+### Built with
 
-- Uses ESLint Flat Config with TypeScript, React, and Prettier integration.
-- Prettier config is in `.prettierrc`.
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Mobile-first workflow
+- [Vite](https://vite.dev/) - Module Bundler
+- [React + Typescript](https://reactjs.org/)
 
----
+### What I learned
 
-## Useful Links
+- How to **center a div** without using flexbox or Gridbox
+- **Font** loading, fallback and optimsations.
+- Working with **Figma** design
 
-- [Vite Documentation](https://vitejs.dev/)
-- [React Documentation](https://react.dev/)
-- [TypeScript Documentation](https://www.typescriptlang.org/)
-- [ESLint Flat Config Guide](https://eslint.org/docs/latest/use/configure/)
-- [Prettier](https://prettier.io/)
 
----
+### Continued development
+
+ - Frontend Mentor Learning Path
+ - React
+ - Redux
+ - Next
+ - Frontend System Design
+
+
+### Useful resources
+
+Frontend Mentor Community
+
+## Author
+
+- Website - [Ujjwal Gupta](https://www.linkedin.com/in/ujjwal-gupta-671588154/)
+- Frontend Mentor - [@guptaujjwal1128](https://www.frontendmentor.io/profile/guptaujjwal1128)
+- Twitter - [@guptaujjwal1128](https://www.twitter.com/guptaujjwal1128)
+
 
 ## License
 
