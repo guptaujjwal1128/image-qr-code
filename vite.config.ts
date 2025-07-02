@@ -6,5 +6,6 @@ export default defineConfig({
   plugins: [react()],
   build: {
     outDir: "docs", // Output build to /docs
+    assetsDir: "static", // Rename assets directory to /docs/static
   },
 });
