@@ -5,11 +5,7 @@ function App() {
   return (
     <main className="container">
       <div className="card">
-        <img
-          className="card-img"
-          src={qrCodeImg}
-          alt="QR Code"
-        />
+        <img className="card-img" src={qrCodeImg} alt="QR Code" />
         <div className="card-content">
           <div className="card-content-primary">
             Improve your front-end skills by building projects

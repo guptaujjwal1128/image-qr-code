@@ -49,10 +49,10 @@ npm run preview
 
 ### Linting & Formatting
 
-  ```sh
-  npm run fmt
-  npm run lint
-  ```
+```sh
+npm run fmt
+npm run lint
+```
 
 ### Project Structure
 
@@ -88,15 +88,13 @@ tsconfig*.json    # TypeScript configs
 - **Font** loading, fallback and optimsations.
 - Working with **Figma** design
 
-
 ### Continued development
 
- - Frontend Mentor Learning Path
- - React
- - Redux
- - Next
- - Frontend System Design
-
+- Frontend Mentor Learning Path
+- React
+- Redux
+- Next
+- Frontend System Design
 
 ### Useful resources
 
@@ -107,7 +105,6 @@ Frontend Mentor Community
 - Website - [Ujjwal Gupta](https://www.linkedin.com/in/ujjwal-gupta-671588154/)
 - Frontend Mentor - [@guptaujjwal1128](https://www.frontendmentor.io/profile/guptaujjwal1128)
 - Twitter - [@guptaujjwal1128](https://www.twitter.com/guptaujjwal1128)
-
 
 ## License
 
